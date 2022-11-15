@@ -23,7 +23,7 @@ body, button, input {
 main {
   background: #FFFFFF;
   box-shadow: 0px 0.2px 0.4px rgba(0, 0, 0, 0.1);
-  border-radius: 0.6px;
+  border-radius: 0.6rem;
   padding: 4.8rem 6.4rem 6.4rem;
   width: min(42.8rem, 90%);
   margin-top: -12rem;
@@ -46,4 +46,24 @@ p {
 
 form {
   margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #DCE2E9;
+  width: 7rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+button {
+  background-color: #7879F1;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 0 0.4rem 0.4rem 0;
 }

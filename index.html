@@ -12,20 +12,22 @@
 <body>
   <main>
 
-    <div class="screen1 hide">
+    <div class="screen">
       <h1>Jogo da Adivinhação</h1>
       <p>Avidinhe um número entre 0 e 10</p>
+      
       <form>
-        <input type="number" lenght="2">
-        <button>Tentar</button>
+        <input id="inputNumber" type="number">
+        <button onclick="handleClick(event)">Tentar</button>
       </form>
-
     </div>
 
-    <div class="screen2">
+    <div class="screen2 hide">
       <h2>Acertou em 3 vezes</h2>
       <button>Jogar Novamente</button>
     </div> 
   </main>
+
+  <script src="./main.js"></script> <!--sempre dentro do body (o script)-->
 </body>
 </html>

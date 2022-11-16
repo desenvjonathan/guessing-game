@@ -4,7 +4,7 @@
 
 > Trilha Explorer
 
-Projeto desenvolvido durante o curso Explorer da Rocketseat, ao final do módulo de JavaScript, com o intuito de colocar em pática.
+Projeto desenvolvido durante o curso Explorer da Rocketseat, ao final do módulo de JavaScript, com o intuito de colocar em prática o conteúdo aprendido.
 
 [Clique aqui para acessar](https://desenvjonathan.github.io/guessing-game/)
 

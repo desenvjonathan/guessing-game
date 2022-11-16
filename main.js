@@ -27,7 +27,7 @@ function handleTryClick(event) {
     toggleScreen()
     h2Text.innerHTML = `<h2>Acertou em ${xAttempts} tentativas</h2>`
   } else if (Number(inputValue) < 0 || Number(inputValue) > 10){
-      alert('Digite un número entre 0 e 10')
+      alert('Digite um número entre 0 e 10')
   } else if (inputValue.length == "" || !(Number(inputValue))){
       alert('Erro. Digite um número válido')
   }

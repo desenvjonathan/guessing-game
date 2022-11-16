@@ -9,7 +9,8 @@
 }
 
 body {
-  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 12%, rgba(0,215,255,1) 100%);
   font-size: 1.6rem;
   display: grid;
   place-items: center;
@@ -21,7 +22,7 @@ body, button, input {
 }
 
 button {
-  background-color: #7879F1;
+  background-color: #4de4ff;
   color: #FFFFFF;
   font-weight: bold;
   border-radius: 0 0.4rem 0.4rem 0;
@@ -30,7 +31,7 @@ button {
 }
 
 button:hover {
-  background-color: #6363CE;
+  background-color: rgba(0,215,255,1);
 }
 
 .hide {
@@ -41,6 +42,7 @@ main {
   background: #FFFFFF;
   box-shadow: 0px 0.2px 0.4px rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
+  border: 1px solid rgba(0,215,255,1);
   padding: 4.8rem 6.4rem 6.4rem;
   width: min(42.8rem, 90%);
   margin-top: -12rem;
